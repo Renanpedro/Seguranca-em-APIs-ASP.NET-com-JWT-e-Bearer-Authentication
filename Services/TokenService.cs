@@ -8,7 +8,7 @@ namespace JwtAspNet.Services;
 
 public class TokenService
 {
-    public string Create()
+    public string Create(User user)
     {
         var handler = new JwtSecurityTokenHandler();
 
@@ -24,28 +24,28 @@ public class TokenService
             SigningCredentials = credentials,
 
             //Quando o token vai expirar
-            Expires = DateTime.UtcNow.AddHours(2)
+            Expires = DateTime.UtcNow.AddHours(2),
+            Subject  = GenerateClaims(user)
         };
 
         var token = handler.CreateToken(tokenDescriptor);
         return handler.WriteToken(token);
     }
 
-    private ClaimsIdentity GenerateClaims(User user)
+    private static ClaimsIdentity GenerateClaims(User user)
     {
         var ci = new ClaimsIdentity();
 
-        ci.AddClaim(new Claim("Id", user.Id.ToString()));
+        ci.AddClaim(new Claim("id", user.Id.ToString()));
         ci.AddClaim(new Claim(ClaimTypes.Name, user.Email));
         ci.AddClaim(new Claim(ClaimTypes.Email, user.Email));
         ci.AddClaim(new Claim(ClaimTypes.GivenName, user.Name));
-        ci.AddClaim(new Claim("Image", user.Image));
+        ci.AddClaim(new Claim("image", user.Image));
 
         foreach (var role in user.Roles)
         {
             ci.AddClaim(new Claim(ClaimTypes.Role, role));
         }
-
 
         return ci;
     }

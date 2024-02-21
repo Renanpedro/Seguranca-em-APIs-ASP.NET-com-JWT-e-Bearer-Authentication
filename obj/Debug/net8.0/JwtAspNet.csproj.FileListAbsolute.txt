@@ -33,3 +33,4 @@ C:\Users\renan\Desktop\ESTUDO\Balta.io\Segurança em APIs ASP.NET com JWT e Bear
 C:\Users\renan\Desktop\ESTUDO\Balta.io\Segurança em APIs ASP.NET com JWT e Bearer Authentication\JwtAspNet\obj\Debug\net8.0\JwtAspNet.pdb
 C:\Users\renan\Desktop\ESTUDO\Balta.io\Segurança em APIs ASP.NET com JWT e Bearer Authentication\JwtAspNet\obj\Debug\net8.0\JwtAspNet.genruntimeconfig.cache
 C:\Users\renan\Desktop\ESTUDO\Balta.io\Segurança em APIs ASP.NET com JWT e Bearer Authentication\JwtAspNet\obj\Debug\net8.0\ref\JwtAspNet.dll
+C:\Users\renan\Desktop\ESTUDO\Balta.io\Segurança em APIs ASP.NET com JWT e Bearer Authentication\JwtAspNet\obj\Debug\net8.0\JwtAspNet.sourcelink.json

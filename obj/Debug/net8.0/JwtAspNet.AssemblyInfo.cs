@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JwtAspNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0086f056e83d235347db7f2f5da6b3b647d6fd53")]
 [assembly: System.Reflection.AssemblyProductAttribute("JwtAspNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JwtAspNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
