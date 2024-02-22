@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\JwtStore.Api.props" />
+</Project>

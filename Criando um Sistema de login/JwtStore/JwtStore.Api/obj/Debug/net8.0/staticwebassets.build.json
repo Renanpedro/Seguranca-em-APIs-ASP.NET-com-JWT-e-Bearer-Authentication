@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0mIGiNzA6iPyo/ueqWaF0+fx8/GSqX1BzVulRpZVKT8=",
+  "Source": "JwtStore.Api",
+  "BasePath": "_content/JwtStore.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
